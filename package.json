@@ -1,0 +1,23 @@
+{
+  "name": "hooky",
+  "version": "0.0.1",
+  "description": "webhook micro service front end. provides an API for registration of hooks and pushing events",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kei3po/hooky.git"
+  },
+  "author": "keith nielsen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kei3po/hooky/issues"
+  },
+  "homepage": "https://github.com/kei3po/hooky#readme",
+  "dependencies": {
+    "amqplib": "^0.4.0",
+    "hapi": "^11.1.0"
+  }
+}
